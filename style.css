@@ -16,9 +16,9 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #5F2EEA;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -45,9 +45,80 @@ button {
    border: none;
    width: 155px;
    height: 50px;
-   color: #FFFFFF;
+   color: #ffffff;;
 }
-/* 
-.hz {
-    background-color: red;
-} */
+.menu_2 {
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 210px;
+    width: 1600px;
+    line-height: 18px;
+    list-style: none;
+}
+.logo {
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 90px;
+    top: 75px;
+    list-style: none;
+}
+.li_head {
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+}
+.logo1 {
+    display: block;
+    position: fixed;
+    left: 860px;
+    right: 1600px;
+    top: 10%;
+    bottom: 82.67%;
+    list-style: none;
+}
+.logo2 {
+    display: block;
+    position: fixed;
+    left: 75%;
+    right: 0%;
+    top: 10%;
+    list-style: none;
+}
+.li_phone {
+    display: block;
+    position: absolute;
+    width: 131px;
+    height: 19px;
+    left: 38px;
+    top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.logo3 {
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: 1424px;
+    top: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    list-style: none;
+    color: #5F2EEA;
+}
+.li_logo {
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: 1455px;
+    top: 55px;
+    list-style: none;
+}
