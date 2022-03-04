@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&display=swap');
+
 .menu {
     position: fixed;
     width: 1600px;
@@ -33,19 +35,19 @@ li a:hover:not(.active) {
 }
 
 button {
-   position: absolute;
+   position: fixed;
    left: 76%;
    top: 0%;
    bottom: 0%;
    background: #7F56F4;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: Helvetica;
    font-style: normal;
    font-weight: 600;
    font-size: 14px;
    border: none;
    width: 155px;
    height: 50px;
-   color: #ffffff;;
+   color: #ffffff;
 }
 .menu_2 {
     position: fixed;
@@ -56,7 +58,7 @@ button {
     list-style: none;
 }
 .logo {
-    position: absolute;
+    position: fixed;
     width: 144px;
     height: 20px;
     left: 90px;
@@ -68,7 +70,7 @@ button {
     padding: 14px 16px;
 }
 .logo1 {
-    position: absolute;
+    position: fixed;
     width: 144px;
     height: 20px;
     left: 860px;
@@ -76,7 +78,7 @@ button {
     list-style: none;
 }
 .logo2 {
-    position: absolute;
+    position: fixed;
     width: 144px;
     height: 20px;
     left: 1200px;
@@ -85,11 +87,11 @@ button {
 }
 .li_phone {
     display: block;
-    position: absolute;
+    position: fixed;
     width: 131px;
     height: 19px;
-    left: 38px;
-    top: 4px;
+    left: 1235px;
+    top: 79px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -99,7 +101,7 @@ button {
     color: #000000;
 }
 .logo3 {
-    position: absolute;
+    position: fixed;
     width: 22px;
     height: 18px;
     left: 1424px;
@@ -114,10 +116,61 @@ button {
     color: #5F2EEA;
 }
 .li_logo {
-    position: absolute;
+    position: fixed;
     width: 22px;
     height: 18px;
     left: 1455px;
     top: 60px;
     list-style: none;
+}
+.container {
+    position: fixed;
+    width: 1600px;
+    height: 639px;
+    left: 0px;
+    top: 167px;
+
+    background: url(./img/Rectangle\ 1.png);
+    mix-blend-mode: normal;
+}
+p {
+    position: absolute;
+    width: 632px;
+    height: 126px;
+    left: 126px;
+    top: 85px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 89.6%;
+    /* or 63px */
+    
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+}
+.container2 {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 0px;
+    top: 797px;
+    
+    background: url(./img/Rectangle\ 42.png);
+}
+.container3 {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 399px;
+    top: 797px;
+    
+    background: #FFFFFF;
+    content: normal;
+}
+.pic {
+        top: 20px;
 }
