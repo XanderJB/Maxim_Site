@@ -1,3 +1,2 @@
 # Maxim_Site
-
-https://xanderjb.github.io/Maxim_Site/
+https://sanyagribanov.github.io/Maxim_Site/
