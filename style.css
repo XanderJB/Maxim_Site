@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&display=swap');
 
 .menu {
-    position: fixed;
+    position: absolute;
     width: 1600px;
     height: 50px;
     list-style: none;
@@ -11,6 +11,9 @@
     background: #5F2EEA;
 }
 
+body {
+    overflow-x:hidden;
+}
 
 li {
     float: left;
@@ -34,8 +37,8 @@ li a:hover:not(.active) {
     transition: all ease 0.5s;
 }
 
-button {
-   position: fixed;
+.registration {
+   position: absolute;
    left: 76%;
    top: 0%;
    bottom: 0%;
@@ -50,15 +53,15 @@ button {
    color: #ffffff;
 }
 .menu_2 {
-    position: fixed;
-    margin-top: 60px;
+    position: absolute;
+    margin-top: 70px;
     margin-left: 210px;
     width: 1600px;
     line-height: 18px;
     list-style: none;
 }
 .logo {
-    position: fixed;
+    position: absolute;
     width: 144px;
     height: 20px;
     left: 90px;
@@ -70,7 +73,7 @@ button {
     padding: 14px 16px;
 }
 .logo1 {
-    position: fixed;
+    position: absolute;
     width: 144px;
     height: 20px;
     left: 860px;
@@ -78,7 +81,7 @@ button {
     list-style: none;
 }
 .logo2 {
-    position: fixed;
+    position: absolute;
     width: 144px;
     height: 20px;
     left: 1200px;
@@ -87,11 +90,11 @@ button {
 }
 .li_phone {
     display: block;
-    position: fixed;
+    position: absolute;
     width: 131px;
     height: 19px;
-    left: 1235px;
-    top: 79px;
+    left: 50px;
+    top: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -101,7 +104,7 @@ button {
     color: #000000;
 }
 .logo3 {
-    position: fixed;
+    position: absolute;
     width: 22px;
     height: 18px;
     left: 1424px;
@@ -116,7 +119,7 @@ button {
     color: #5F2EEA;
 }
 .li_logo {
-    position: fixed;
+    position: absolute;
     width: 22px;
     height: 18px;
     left: 1455px;
@@ -124,7 +127,7 @@ button {
     list-style: none;
 }
 .container {
-    position: fixed;
+    position: absolute;
     width: 1600px;
     height: 639px;
     left: 0px;
@@ -133,7 +136,7 @@ button {
     background: url(./img/Rectangle\ 1.png);
     mix-blend-mode: normal;
 }
-p {
+.text_container {
     position: absolute;
     width: 632px;
     height: 126px;
@@ -148,11 +151,11 @@ p {
     /* or 63px */
     
     
-    color: #FFFFFF;
+    color: #ffffff;
     
     mix-blend-mode: normal;
 }
-.container2 {
+.flat {
     position: absolute;
     width: 399px;
     height: 399px;
@@ -173,4 +176,281 @@ p {
 }
 .pic {
         top: 20px;
+}
+
+.text-container {
+    position: absolute;
+    width: 129px;
+    height: 266px;
+    left: px;
+    top: -10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 250.6%;
+    text-transform: uppercase;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.text-container-1 {
+    position: absolute;
+    width: 311px;
+    height: 111px;
+    left: 20px;
+    top: 160px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 300.5%;
+    color: #7A787D;
+}
+.block_two {
+    position: absolute;
+    left: 798px;
+    top: 0px;
+}
+.house {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 0px;
+    top: 797px;
+    background-color: rgb(203, 203, 186);
+}
+.big-image {
+    position: absolute;
+    width: 798px;
+    height: 798px;
+    left: 0px;
+    top: 1196px;
+
+    background-color: rgb(203, 203, 186);
+}
+.rectangle_49 {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 0px;
+    top: 399px;
+    background-color: rgb(255, 255, 255);
+}
+.triangle {
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    left: 369px;
+    top: 40px;
+    transform: rotate(180deg);
+}
+.triangle_1 {
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    left: -30px;
+    top: 40px;
+    transform: rotate(359deg);
+}
+.block_four {
+    position: absolute;
+    left: 798px;
+    top: 399px;
+}
+.trucks {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 399px;
+    top: 797px;
+    background-color: rgb(203, 203, 186);
+}
+.text-container_4 {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 0px;
+    top: 797px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 250.6%;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    /* opacity: 0.9; */
+    background: url(./img/Rectangle\ 46.png)
+}
+.text-container-1_4 {
+    position: absolute;
+    width: 311px;
+    height: 111px;
+    left: 20px;
+    top: 1000px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 328.5%;
+    color: #ffffff;
+}
+.triangle_4 {
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    left: 0px;
+    top: 50px;
+    transform: rotate(0deg);
+}
+.text-container_4 {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 0px;
+    top: 797px;
+}
+.text_container_4 {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 5px;
+    top: 20px;
+}
+.text {
+    position: absolute;
+    width: 800px;
+    height: 33px;
+    left: 846px;
+    top: 1640px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 185.6%;
+    text-transform: uppercase;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+.text_button {
+    position: absolute;
+    left: 20%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+}
+.link_button {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 300%;
+    background: #5F2EEA;
+    border-radius: 20px;
+    width: 360px;
+    height: 60px;
+    border: none;
+    align-items: center;
+}
+.second_bar {
+    position: absolute;
+    left: 0%;
+}
+.advertisement {
+    position: absolute;
+    top: 0%;
+    width: auto;
+    height: auto;
+    background-color: #5F2EEA;
+}
+.text_1 {
+    position: absolute;
+    width: 601px;
+    height: 50px;
+    left: 528px;
+    top: 2160px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120.1%;
+    color: #000000;
+}
+.unit_1 {
+    position: absolute;
+    width: 352px;
+    height: 44px;
+    left: 388px;
+    top: 2266px;
+
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    list-style-image: url(./img/square.png);
+
+    text-transform: uppercase;
+
+color: #7A787D;
+}
+.unit_2 {
+    position: absolute;
+    width: 352px;
+    height: 44px;
+    left: 1000px;
+    top: 2266px;
+
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    list-style-image: url(./img/square.png);
+
+    
+    text-transform: uppercase;
+
+    color: #7A787D;
+}
+.link_button_1 {
+    position: absolute;
+    left: 670px;
+    right: 0%;
+    top: 2450px;
+    background: hsl(256, 82%, 55%);    
+    border-radius: 20px;
+    width: 260px;
+    height: 65px;
+    border: none;
+    align-items: center;
+}
+.text_button_1 {
+    position: absolute;
+    left: 37%;
+    right: 10%;
+    top: 10%;
+    bottom: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #ffffff;
 }
