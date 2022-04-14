@@ -52,6 +52,12 @@ li a:hover:not(.active) {
    height: 50px;
    color: #ffffff;
 }
+.registration:hover {
+    background: #a892e3;
+}
+.registration:active {
+    background: #6c5b9c;
+}
 .menu_2 {
     position: absolute;
     margin-top: 70px;
@@ -337,14 +343,14 @@ li a:hover:not(.active) {
 }
 .text_button {
     position: absolute;
-    left: 20%;
+    left: 12%;
     right: 10%;
     top: 0%;
     bottom: 0%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 28px;
     display: flex;
     align-items: center;
@@ -354,15 +360,21 @@ li a:hover:not(.active) {
 }
 .link_button {
     position: absolute;
-    left: 0%;
+    left: 0px;
     right: 0%;
-    top: 300%;
-    background: #5F2EEA;
+    top: 110px;
+    background: hsl(256, 82%, 55%);
     border-radius: 20px;
-    width: 360px;
-    height: 60px;
+    width: 260px;
+    height: 65px;
     border: none;
     align-items: center;
+}
+.link_button:hover {
+    background: hsl(256, 69%, 64%);;
+}
+.link_button:active {
+    background: hsl(256, 45%, 42%);;
 }
 .second_bar {
     position: absolute;
@@ -379,7 +391,7 @@ li a:hover:not(.active) {
     position: absolute;
     width: 601px;
     height: 50px;
-    left: 528px;
+    left: 434px;
     top: 2160px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -390,52 +402,53 @@ li a:hover:not(.active) {
 }
 .unit_1 {
     position: absolute;
-    width: 352px;
+    width: 552px;
     height: 44px;
-    left: 388px;
+    left: 188px;
     top: 2266px;
-
     font-family: 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 160%;
     list-style-image: url(./img/square.png);
-
     text-transform: uppercase;
-
-color: #7A787D;
+    color: #7A787D;
+    list-style-position: inside;
 }
 .unit_2 {
     position: absolute;
-    width: 352px;
+    width: 452px;
     height: 44px;
-    left: 1000px;
+    left: 800px;
     top: 2266px;
-
     font-family: 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 160%;
     list-style-image: url(./img/square.png);
-
-    
     text-transform: uppercase;
-
     color: #7A787D;
+    list-style-position: inside;
 }
 .link_button_1 {
     position: absolute;
-    left: 670px;
+    left: 600px;
     right: 0%;
     top: 2450px;
-    background: hsl(256, 82%, 55%);    
+    background: rgb(96, 46, 234);
     border-radius: 20px;
     width: 260px;
     height: 65px;
     border: none;
     align-items: center;
+}
+.link_button_1:hover {
+    background: hsl(256, 69%, 64%);;
+}
+.link_button_1:active {
+    background: hsl(256, 45%, 42%);;
 }
 .text_button_1 {
     position: absolute;
@@ -453,4 +466,11 @@ color: #7A787D;
     text-align: center;
     letter-spacing: 0.75px;
     color: #ffffff;
+}
+.list_block {
+    position: absolute;
+    display: flex;
+    left: 80px;
+    width: fit-content;
+    height: fit-content;
 }
